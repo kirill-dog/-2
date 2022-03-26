@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.button {
+    background-color: #36bbce;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 30px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top:40px;
+    margin-bottom:40px ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    padding: 32px 21px 65px 23px;
+    width: 400px;
+    margin:35px 41px 22px 41px ;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #FF7400;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: #4671D5;
+    padding: 70px;
+    
+}
+
+footer a {
+    margin-right: 57px;
+}
+
+footer p {
+    font-size: 24px;
+}
